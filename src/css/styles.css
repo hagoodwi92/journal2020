@@ -1,3 +1,7 @@
 #isosceles, #equilateral,#not-triangle, #scalene {
   display: none;
 }
+
+body {
+  background-color: blue;
+}
