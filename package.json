@@ -1,5 +1,5 @@
 {
-  "name": "triangle1-tracker",
+  "name": "journal2020",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hagoodwi92/triangle1-tracker.git"
+    "url": "git+https://github.com/jaki-w/journal2020.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hagoodwi92/triangle1-tracker/issues"
+    "url": "https://github.com/jaki-w/journal2020.git"
   },
-  "homepage": "https://github.com/hagoodwi92/triangle1-tracker#readme",
+  "homepage": "https://github.com/jaki-w/journal2020.git",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
