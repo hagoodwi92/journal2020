@@ -5,47 +5,22 @@
   <title>Shape Tracker</title>
 </head>
 <div class="container">
-  <div class = "jumbotron" > 
-  <h1>Triangle Tracker</h1>
-  </div>
-  <form id="triangle">
+  <h1>My Journal</h1>
+
+  <form id="UserEntry">
     <div class="form-group">
-    <label for="number1">Enter the first number:</label>
-    <input id="number1" type="text">
-  </div>
+      <label>Title:</label>
+      <input type="text" id="title" class="form-control">
+    </div>
     <div class="form-group">
-    <label for="number2">Enter the second number:</label>
-    <input id="number2" type="text">
-  </div>
-    <div class="form-group">
-    <label for="number3">Enter the third number:</label>
-    <input id="number3" type="text">
-  </div>
-  <button type="submit" class="btn btn-danger">Submit</button>
+      <label>Journal Entry:</label>
+      <input type="text" id="body" class="form-control">
+    </div>
+    <button type="submit">Create Entry</button>
   </form>
 
-  <div id="equilateral">
-    <br>
-    <div class="p-3 mb-2 bg-success text-white">
-    <h3>This is a triangle Equilateral</h3>
-  </div>
-    
-  </div>
-  <div id="isosceles">
-    <div class="p-3 mb-2 bg-success text-white">
-    <h3>This is a triangle isosceles</h3>
-  </div>
-  </div>
-  <div id="scalene">
-    <div class="p-3 mb-2 bg-success text-white">
-    <h3>This is a triangle scalene</h3>
-    </div>
-  </div>
-  <div id="not-triangle">
-    <div class="p-3 mb-2 bg-danger text-white">
-    <h3>Not  triangle </h3>
-  </div>
-    </div>
+  <div class="showLater">
+
   </div>
 
 </div>
